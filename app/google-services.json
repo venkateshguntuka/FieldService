@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "640819188054",
+    "firebase_url": "https://planar-cell-122112.firebaseio.com",
+    "project_id": "planar-cell-122112",
+    "storage_bucket": "planar-cell-122112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640819188054:android:86ea1c35b101e4a8",
+        "android_client_info": {
+          "package_name": "com.example.venkatesh.fieldservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640819188054-ka8h4e2d555fmb6ricbrdn5hnvspbrtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venkatesh.fieldservice",
+            "certificate_hash": "C8D3A5E3BEACDEFF2C628EB0B763E3FE487341E9"
+          }
+        },
+        {
+          "client_id": "640819188054-221genr48s8rp4knl3k5kmlork1k1leh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTXwWdTsT4wxSJiCv7dbMZQvKpMa8ADpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640819188054-221genr48s8rp4knl3k5kmlork1k1leh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

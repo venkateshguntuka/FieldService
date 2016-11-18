@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/service"
+        android:layout_marginTop="38dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/etStatus"
+        android:layout_alignEnd="@+id/etStatus" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Status"
+        android:id="@+id/upButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etStatus"
+        android:hint="Enter Status"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/upButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email"
+        android:id="@+id/tvEmail"
+        android:layout_marginTop="51dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Employee Id"
+        android:id="@+id/tvempid"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/tvEmail"
+        android:layout_alignLeft="@+id/tvEmail"
+        android:layout_alignStart="@+id/tvEmail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Package Id"
+        android:id="@+id/tvpackageid"
+        android:layout_below="@+id/tvempid"
+        android:layout_alignLeft="@+id/tvempid"
+        android:layout_alignStart="@+id/tvempid"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Status"
+        android:id="@+id/tvstatus"
+        android:layout_below="@+id/tvpackageid"
+        android:layout_alignLeft="@+id/tvpackageid"
+        android:layout_alignStart="@+id/tvpackageid"
+        android:layout_marginTop="32dp" />
+
+</RelativeLayout>

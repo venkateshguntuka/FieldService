@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "141655321927",
+    "firebase_url": "https://field-service-management-4a2f1.firebaseio.com",
+    "project_id": "field-service-management-4a2f1",
+    "storage_bucket": "field-service-management-4a2f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141655321927:android:86ea1c35b101e4a8",
+        "android_client_info": {
+          "package_name": "com.example.venkatesh.fieldservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141655321927-77am2u51nhnk2066n090lo4hi6a06kf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHX3iqTvz-ld_UN0j0iJSisZidRIMWhvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
